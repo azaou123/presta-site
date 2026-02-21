@@ -1,0 +1,38 @@
+# PrestaShop default gitignore
+
+# Composer vendor directory (if using composer)
+vendor/
+
+# Cache and logs
+var/cache/
+var/logs/
+var/sessions/
+
+# Config files that contain sensitive info
+app/config/parameters.php
+config/settings.inc.php
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.bak
+
+# IDEs / Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node / Frontend
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# PrestaShop upload folders (optional, if not versioning uploaded content)
+upload/
+img/tmp/
