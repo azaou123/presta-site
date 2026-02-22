@@ -1,9 +1,14 @@
 name: hummingbird-child
 display_name: Hummingbird Child
 version: 1.0.0
-author: Your Name
+
+author:
+  name: Badr AZAOUI
+
+description: Hummingbird Child
 parent: hummingbird
+
 meta:
   compatibility:
-    from: 1.0.0
+    from: 9.0.0
     to: ~

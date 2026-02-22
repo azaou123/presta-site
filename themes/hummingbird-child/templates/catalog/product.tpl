@@ -1,14 +1,7 @@
-{**
- * Hummingbird Child - Product page override
- *}
-{extends file='catalog/product.tpl'}
+{extends file='parent:catalog/product.tpl'}
 
-{block name='page_content'}
-  {$smarty.block.parent}
-
-  {* Add custom info block *}
-  <div class="custom-product-info alert alert-info mt-3">
-    <i class="material-icons">local_shipping</i>
-    <strong>Info livraison :</strong> Livraison offerte à domicile
-  </div>
+{block name='product_header'}
+  <h1 class="h1 custom-product-title">
+    {$product.name} Badr
+  </h1>
 {/block}
