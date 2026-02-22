@@ -1,0 +1,9 @@
+name: hummingbird-child
+display_name: Hummingbird Child
+version: 1.0.0
+author: Your Name
+parent: hummingbird
+meta:
+  compatibility:
+    from: 1.0.0
+    to: ~
