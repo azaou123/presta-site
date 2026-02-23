@@ -1,0 +1,13 @@
+:root {
+  --brand-primary: #ff6600;
+}
+
+.header {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid var(--brand-primary);
+}
+
+.product-title {
+  color: var(--brand-primary);
+  font-size: 1.8rem;
+}
